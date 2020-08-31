@@ -17,6 +17,7 @@ A list of my commonly used Git commands
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `git add -u` | Add only changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
@@ -44,14 +45,18 @@ A list of my commonly used Git commands
 
 | Command | Description |
 | ------- | ----------- |
+| `git fetch origin` | Fetch and update files from remote repository |
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository |
+| `git remote -v` | List remote repository urls |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+
+### Revert and reset (cancel, undo, unchange...)
 
 ### Inspection & Comparison
 
